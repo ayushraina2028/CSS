@@ -1,0 +1,21 @@
+/* coolors.co website use for great color combinations */
+
+body {
+    font-size: 22px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.3;
+    background-color: #122932;
+
+    /*to change font color we can use color*/
+    color: white;
+}
+
+p {
+    /*rgba :- here last a is used for transparency */
+    color: yellow;
+}
+
+/*another kind used is hsl and hsla (hue, saturation and light)*/
+
+
+

@@ -1,0 +1,65 @@
+/* Typography is a way by which text is arranged 
+and presented */
+
+body {
+    padding: 10%;
+    font-size: 2rem;
+    background-color: aquamarine;
+
+}
+
+
+
+/*See above properties are not applied to input and button
+to apply these to those elements see below code */
+
+/* 1) text-decorations
+p {
+    text-decoration: underline;
+} */
+
+/* 2) text-transform
+p {
+    text-transform: capitalize;
+}*/
+
+/* 3) text-align
+p {
+    text-align: center;
+}*/
+
+
+/*to give indentations we use below code
+REMEMBER that indentation applies to first line only*/
+p {
+    text-indent: 2em;
+    line-height: 1.4em;
+    /* letter-spacing: 1.5px;
+    word-spacing: 3px; */
+
+   /* font-style: normal; */
+
+    /* font-family: sans-serif;
+    font-family: monospace;
+    font-family: cursive;
+    font-family: fantasy;
+    font-family: serif;
+    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Roboto', sans-serif;
+
+    /*We can bring fonts from web*/
+
+
+    color: #333;
+    background-color: yellowgreen;
+    margin: 2rem;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+    
+
+}
+

@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    /* vh means viewport height */
+    min-height: 100vh;
+}
+
+main {
+    /*vw means viewport width with but no need to use it*/
+   font-size: 2rem;
+}
+
+
+h1 {
+    border: 2px dashed red;
+    width: 50%;
+
+    /*Use rem units in font size and em units in paddings*/
+    font-size: 3rem;
+    padding: 0.5rem;
+}
+
+
+p {
+    font-size: 2rem;
+
+    /*ch means these many unit characters per line*/
+    width: 50ch;
+}
+

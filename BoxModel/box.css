@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 2px double red;
+    font-size: 1.5rem;
+
+    
+
+    /* Use rem units in font size and em units in paddings */
+    /* margin-top: 1.5rem;
+    margin-right: 2em;
+    margin-bottom: 2rem;
+    margin-left: 2em; */
+
+
+    /*Margin Shortcut Top, right, bottom, left*/
+    margin: 1.5rem 2em 2rem 2em;
+    
+    /*Padding Shortcut Top, right, bottom, left */
+    padding: 1.5em 1.5em 1.5em 1.5em;
+
+    /*Similar Properties Border also have*/
+    border-top: 5px solid black;
+    border-right: 5px solid black;
+    border-bottom: 5px solid blue;
+    border-left: 5px solid blue;
+
+    /*We can give styles like this also*/
+    border-top-width: 6px;
+    border-right-width: 6px;
+    border-left-width: 6px;
+    border-bottom-width: 6px;
+
+    border-bottom-style: double;
+    border-left-style:double;
+    border-right-style: double;
+    border-top-style: double;
+
+    border-right-width: 6px;
+    /*Some border styles to use are double, dashed ,
+    dotted, solid etc and we can change width by
+    writing above code*/
+
+
+    /* We can also give outline */
+    outline: 1px solid green;
+
+    /*To send outline outside use outline offset 
+    similarly to bring the outline to inside use negative
+    value of pixels */
+    outline-offset: -30px;
+
+}
+
+.circle {
+
+    /*We can use auto so that to center it horizontally after 3rem*/
+    margin: 4rem auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    outline: 2px black solid;
+    outline-offset: 0.25rem;
+
+    /*Here we go*/
+    border-radius: 50%;
+}

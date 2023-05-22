@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  padding: 5% 10%;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+
+ol {
+  list-style-type: decimal; /*gives lower abc
+  default value is decimal, many choices in VS CODE*/
+}
+
+/*If we do not want index we can do that also
+I am creating a new list wait */
+
+
+
+.ul1 {
+    list-style-type: square; /*squared bullet points*/
+    color: red; 
+
+    line-height: 1.6;
+
+    list-style-image: url("checkmark.png"); /*we can use any image here*/
+
+    list-style-position: inside; /*to bring bullet points inside*/
+    
+}
+
+.one {
+    list-style-type: square; /*circular bullet points*/
+    padding: 0; /*required to bring list to right position*/
+}
+
+ol li {
+    color: maroon;
+}
+
+/*Sudo class to change a specific element*/
+ul li:nth-child(2) {
+    color: black;
+}
+/*this int child also accepts arguments like odd, even*/
+
+/*Sudo element: marker used for changing indexes*/
+::marker {
+
+    color: green;
+    font-size: 2rem;
+    font-weight: bold;
+    
+    /*if you want to add something specific in place of 
+    index use content: "ayush>>" */
+    
+}
+

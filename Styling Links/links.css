@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    padding: 10%;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    /*we can use underline in decoration*/
+
+    cursor: pointer;
+    /*we can use not-allowed which means
+    it will show red bar on hovering it*/
+
+    color: rgb(50, 125, 195);
+}
+
+
+/*pseudo classes*/
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: red;
+    background-color: yellow;
+    border: 3px solid black;
+    margin: 3px;
+    /*we can give opacity also*/
+    opacity: 1; 
+}
+
+a:active {
+    /*this will be seen when button is on hold*/
+    color: green;
+}
+
+/*remember order 
+anchor - visited - hower - active*/
+
+a:focus {
+    /*this will be seen when button is on focus
+    means when we use tab instead of cursor*/
+    color: yellow;
+}

@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+
+
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+}
+
+.columns {
+    column-count: 4;
+
+    /*Now column width cant be less than
+    particular*/
+    column-width: 250px;
+
+    column-rule: 3px solid black;
+
+    column-gap: 20px;
+}
+
+.columns p {
+    margin-top : 0;
+}
+
+.columns h2 {
+    margin-top: 0;
+    background-color: cyan;
+    padding: 1rem;
+    width: 60%;
+
+    /*this does now allow this to break*/
+    break-inside: avoid;
+}
+
+/*unicode character table website
+use for some really interesting things*/
+
+.columns .quote {
+    margin-top: 2rem;
+    font-size: 3rem;
+    text-align: center;
+    column-span: all;
+}
+
+.nowrap {
+    white-space: nowrap;
+    
+}
